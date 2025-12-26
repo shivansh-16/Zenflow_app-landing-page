@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #212121;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  
+  /* ZenFlow Colors */
+  --color-primary: #4CAF50;
+  --color-primary-dark: #388E3C;
+  --color-accent: #2196F3;
+  --color-accent-blue: #F0F4FF;
+  --color-text-main: #212121;
+  --color-text-secondary: #757575;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff; /* Keeping light mode default as per design, easy to switch later if needed but req says white bg */
+    --foreground: #212121;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
