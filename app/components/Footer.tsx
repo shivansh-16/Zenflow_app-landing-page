@@ -79,7 +79,7 @@ export function Footer() {
 
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-xs text-text-secondary">
-                        © 2024 ZenFlow Inc. All rights reserved.
+                        © 2025 ZenFlow Inc. All rights reserved. <b className="text-sm">Made By Shivansh with ❤️</b> .
                     </p>
                     <div className="flex gap-4">
                         {/* Using simple text or placeholders for app store buttons roughly matching design without specific images */}
