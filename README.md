@@ -2,7 +2,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 # ZenFlow App Landing Page
 
-![ZenFlow Preview](reference/with bg.png)
+<p align="center">
+  <img src="reference/with bg.png" width="600" alt="ZenFlow Preview">
+</p>
+
 
 ## Getting Started
 
